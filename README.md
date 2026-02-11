@@ -1,10 +1,10 @@
 # PKermut
 
 PKermut is a preferential version of the Kermut Gaussian process model as reported in 
-[Kermut: Composite kernel regression for protein variant effects](!https://doi.org/10.48550/arXiv.2407.00002). 
-This repository is a fork of the [original repository](!https://github.com/petergroth/kermut) 
+[Kermut: Composite kernel regression for protein variant effects](https://doi.org/10.48550/arXiv.2407.00002). 
+This repository is a fork of the [original repository](https://github.com/petergroth/kermut) 
 and contains some modifications that allows users to train and run inference with PKermut: 
-Kermut trained with a [preferential objective](!https://botorch.readthedocs.io/en/latest/models.html#module-botorch.models.pairwise_gp).
+Kermut trained with a [preferential objective](https://botorch.readthedocs.io/en/latest/models.html#module-botorch.models.pairwise_gp).
 
 
 # Structure
@@ -23,7 +23,7 @@ preferential training support, such as preference pair sampling algorithms.
 uv sync
 ```
 
-[ProteinMPNN](!https://github.com/dauparas/ProteinMPNN) must be installed to compute 
+[ProteinMPNN](https://github.com/dauparas/ProteinMPNN) must be installed to compute 
 structure-conditioned amino acid distributions. This can be done by cloning the repository 
 and passing its path to an environment variable named `PROTEINMPNN_DIR`.
 

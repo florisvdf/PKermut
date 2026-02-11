@@ -1,0 +1,16 @@
+[project]
+name = "pg-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "proteingym-base",
+    "sagemaker==2.117.0",
+]
+
+[tool.uv.sources]
+proteingym-base = { git = "https://github.com/ProteinGym/proteingym-base.git" }
+
+[dependency-groups]
+dev = []
